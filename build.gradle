@@ -57,6 +57,7 @@ model {
             sources.cpp {
                 source {
                     srcDir 'src/main/cpp'
+                    srcDir 'src/main/submodules/mpu6050/src'
                     include '**/*.cpp', '**/*.cc'
                 }
                 exportedHeaders {
