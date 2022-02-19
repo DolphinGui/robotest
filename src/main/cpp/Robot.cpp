@@ -3,7 +3,9 @@
 // the WPILib BSD license file in the root directory of this project.
 
 #include "Robot.h"
-#include "MPU6050.h"
+#include <hal/I2C.h>
+#include <iostream>
+#include <fmt/format.h>
 
 void Robot::RobotInit() {}
 void Robot::RobotPeriodic() {}
@@ -11,14 +13,17 @@ void Robot::RobotPeriodic() {}
 void Robot::AutonomousInit() {}
 void Robot::AutonomousPeriodic() {}
 
-void Robot::TeleopInit() {}
+void Robot::TeleopInit() {
+}
 void Robot::TeleopPeriodic() {}
 
 void Robot::DisabledInit() {}
 void Robot::DisabledPeriodic() {}
 
-void Robot::TestInit() {}
-void Robot::TestPeriodic() {}
+void Robot::TestInit() {
+}
+void Robot::TestPeriodic() { 
+}
 
 #ifndef RUNNING_FRC_TESTS
 int main() {

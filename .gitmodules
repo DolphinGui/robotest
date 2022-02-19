@@ -1,3 +1,0 @@
-[submodule "src/main/submodules/mpu6050"]
-	path = src/main/submodules/mpu6050
-	url = https://github.com/DolphinGui/mpu6050.git
